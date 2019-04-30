@@ -1,0 +1,33 @@
+package day08;
+
+public class relationals {
+	public static void main(String[] args) {
+		
+		
+		double d1 = 23.56 ;
+		double d2 = 20.43;
+		
+		System.out.println(d1>=d2);
+		
+		boolean check= d1>=d2;
+		System.out.println("check: "+check);
+		
+		char ch1= 'a' ;            //true 'j' > 'a'
+		
+		char ch2 = 'j';             // 
+		char ch3= 'A';
+		
+		System.out.println(ch2 > ch1);
+		System.out.println(ch1>ch3);
+		
+		boolean b = true == false ;
+		System.out.println("B: "+b);
+		b=true != false;
+		
+		System.out.println("B: "+ b);
+		
+		
+		
+	}
+
+}
